@@ -30,7 +30,7 @@ exports.handler = async function(event, context, callback) {
             "firstName": senderFirstName,
             "lastName": senderLastName,
           },
-        "to": [{ "email": "JSapp.me <herve76@gmail.com>" }],
+        "to": [{ "email": "High.me <dev008719@protonmail.com>" }],
         "subject": "New Form Submission",
         "text": message
       }
@@ -99,7 +99,7 @@ exports.handler = async function(event, context, callback) {
               "firstName": senderFirstName,
               "lastName": senderLastName,
             },
-          "to": [{ "email": "JSapp.me <herve76@gmail.com>" }],
+          "to": [{ "email": "High.me <dev008719@protonmail.com>" }],
           "subject": "New Form Submission",
           "text": message
         }
